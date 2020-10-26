@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: Pangolin;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;    
+}
+
+.nav a {
+    display: inline block;
+    padding: .8em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;  
+    font-size: 1.1em;
+    font-weight: lighter; 
+}
+.main-nav img {
+    width: 300px;
+    float: left;
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.title-image {
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+.hover-nav a:hover {
+    background-color:#E62B1E;
+}
+.main-header {
+    background-color: white;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 30px;
+}
+.event-name{
+    
+    text-align: center;    
+    margin: 0;
+    font-size: 4em;
+    font-family: Pangolin;
+    font-weight: normal;
+    color: #E62B1E;
+}
+.event-name-large {
+    font-size: 2em;
+}
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5em;
+    color: black;
+    font-family: rock salt;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.tour-btn{
+    max-width: 60%;
+    border-radius: 7%;
+}
+.tour-btn {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.tour-btn:hover{
+    background-color: grey;
+}
+.member-div {
+    margin: 30px;
+}
+
+.member-div-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.member-div-image {
+    height: 250px;
+    width: 300px;
+    border-radius: 20%;
+}
+.member-div-details {
+    display: flex;    
+    align-items: center;
+    padding: 5px;
+}
+.member-div-social {
+    flex-grow: 1;
+    color: #333;
+    font-size: x-large;
+}
+.social-images img {
+    width: 15px;
+    height: 15px;
+}
+.team-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.event-name-footer {
+    text-align: center;
+    padding: 5;
+    margin: 0;
+    font-size: 2em;
+    font-family: New Rocker;
+    font-weight: normal;
+    color: white;
+}
+.main-footer {
+    background-color: black;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.footer-img {
+    width: 250px;
+    height: 100px;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 25px;
+    height: 25px;
+}
